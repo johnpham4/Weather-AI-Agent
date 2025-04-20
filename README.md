@@ -26,7 +26,6 @@ cd ai-weather-agent
 ### 2️⃣ Install Python dependencies (Backend)
 
 ```bash
-cd backend
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
@@ -48,8 +47,7 @@ WEATHER_API_KEY=your_openweather_api_key
 ### 🔥 Start the Backend (FastAPI)
 
 ```bash
-cd backend
-uvicorn main:app --reload
+python model.py
 ```
 
 ### 🎨 Start the Frontend (Live Server)
@@ -81,8 +79,3 @@ This project uses **ReAct-style prompting** by combining LLM reasoning with dyna
 
 > “What’s the weather in my current location?”
 
----
-
-## 📄 License
-
-This project is for educational and demo purposes.
