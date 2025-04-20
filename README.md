@@ -66,16 +66,6 @@ Open `frontend/index.html` with [Live Server](https://marketplace.visualstudio.c
 
 ---
 
-## 🖼️ Sample UI
-
-<p align="center">
-  <img src="images/start.jpg" width="250" style="margin-right: 10px;" />
-  <img src="images/question.jpg" width="250" style="margin-right: 10px;" />
-  <img src="images/movies.jpg" width="250" />
-</p>
-
----
-
 ## 🧰 Tech Stack
 
 - **Backend**: Python, FastAPI, OpenAI API (Fireworks.ai)
